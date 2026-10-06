@@ -1,0 +1,90 @@
+# Read Aloud Privacy Policy
+
+**Effective date:** October 6, 2026
+
+Read Aloud ("the app", "we") creates personalized stories for children and reads them aloud. The app is made for parents and guardians. This policy explains what information the app collects, how it is used, and the choices you have.
+
+## In short
+
+- You create the account and enter your child's details. Children do not sign up on their own.
+- We collect only what the app needs to make and narrate stories: your email, your child's first name and age, the photos and voice recordings you choose to add, and what your child says to a story character.
+- We use third-party AI services to write stories, draw illustrations, and generate narration. They receive only what is needed for that task.
+- We do not show ads, do not sell personal information, and do not use analytics or advertising trackers.
+- You can delete stories, characters, voices, and child profiles inside the app at any time, and you can ask us to delete your account.
+
+## 1. Information we collect
+
+**Account.** Your email address and a password. Passwords are stored as a cryptographic hash, never in plain text.
+
+**Child profiles.** The first name, age, favorite things, and anything your child finds hard that you choose to enter, plus a reading-level profile the app builds from reading practice.
+
+**Photos.** If you choose to, you can photograph a toy or a family member to bring them into a story. The photo is stored on our servers and described by an AI model so the character can appear consistently in stories and illustrations.
+
+**Voice recordings.** If you choose to create a family narration voice, you record a short sample in the app. The recording begins with a spoken consent line. Recordings can only be made inside the app; there is no upload path. The sample is stored on our servers and used only to generate narration for your stories.
+
+**What your child says to a story character.** After some stories, your child can talk with the story's character. Speech is turned into text on the device using Apple's speech recognition, and the text is sent to our servers and to an AI model to produce a reply. Chat text is not stored on our servers after the conversation.
+
+**Reading practice.** When your child reads a practice story, the app can listen on the device to spot words that were hard. The audio stays on the device and is not uploaded. The app sends us only the results: which words were hard, which words were practiced, and reading speed and accuracy.
+
+**Scanned book pages.** If you scan a printed page to have it read aloud, the text is recognized on the device. Only the text is sent to our servers to generate narration; the image is not stored.
+
+**Stories and settings.** The stories, illustrations, narration, and preferences you create in the app.
+
+**Usage.** A count of stories generated each month, used to apply plan limits.
+
+We do not collect location, contacts, or advertising identifiers.
+
+## 2. How we use information
+
+- To write, illustrate, narrate, and save stories for your child.
+- To keep practice stories at your child's reading level.
+- To let a story character respond to your child in a bounded, supervised chat.
+- To run your account and apply plan limits.
+- To respond to your requests and keep the service secure.
+
+We do not use personal information for advertising, and we do not sell it.
+
+## 3. Service providers
+
+To make the app work, we send limited information to these providers. Each receives only what its task needs.
+
+| Provider | What it does | What it receives |
+| --- | --- | --- |
+| Anthropic | Writes stories, describes photos, and generates chat replies | Story settings, your child's first name and age, character photos, chat text |
+| Replicate | Runs AI models for story writing, story review, illustrations, narration, and family voices | Story text, character descriptions, voice samples |
+| ElevenLabs | Optional preset narration voice | Story text only |
+| Apple | Speech recognition and App Store purchases | Audio for speech recognition, handled under Apple's privacy policy |
+
+These providers process information on our behalf and are not permitted to use it for their own purposes.
+
+## 4. Children's privacy
+
+The app is intended to be used by a parent or guardian with their child. The parent creates the account, enters the child's information, and controls all content. By entering a child's information, you confirm you are the child's parent or legal guardian and consent to the collection described in this policy.
+
+We do not knowingly collect personal information directly from a child under 13 without parental consent. Children's information is used only to provide the service and is never used for marketing. If you believe a child has provided information without consent, contact us and we will delete it.
+
+You can review and delete your child's information at any time in the app.
+
+## 5. AI-generated content
+
+Stories, illustrations, and chat replies are generated by AI and may contain mistakes. The app includes review tools so you can read a story before sharing it with your child. Character chats are limited in length, stay within the story, and are designed so that if a child raises something worrying, the character ends the chat and asks the child to go to a parent.
+
+Family narration voices are generated by an AI voice model. Generated audio carries an inaudible watermark so it can be identified as synthetic.
+
+## 6. Retention and deletion
+
+- Deleting a story, character, or child profile in the app removes it from our servers.
+- Deleting a family voice removes the voice sample and every narration made with it.
+- To delete your account and all associated information, contact us at the address below. We will complete the deletion within 30 days.
+
+## 7. Security
+
+Information is sent over encrypted connections (HTTPS). Passwords are hashed. No method of storage or transmission is completely secure, and we cannot guarantee absolute security.
+
+## 8. Changes to this policy
+
+If we change this policy, we will update the effective date above. Significant changes will be announced in the app.
+
+## 9. Contact
+
+Questions or deletion requests: **CONTACT_EMAIL**
