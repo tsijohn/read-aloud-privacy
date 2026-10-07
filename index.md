@@ -13,7 +13,7 @@ hears it. This policy explains what the app collects, where it goes, and how to
 delete it.
 
 The app is operated by **[YOUR NAME OR COMPANY]** ("we"). Questions:
-**[CONTACT EMAIL]**.
+**[utjohnkkim@gmail.com](mailto:utjohnkkim@gmail.com)**.
 
 ## What we collect
 
@@ -116,4 +116,4 @@ is shared with outside AI services, the app will ask for your agreement again.
 
 ## Contact
 
-**[CONTACT EMAIL]**
+**[utjohnkkim@gmail.com](mailto:utjohnkkim@gmail.com)**
