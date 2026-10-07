@@ -12,7 +12,7 @@ account, sets up each child's profile, and approves every story before a child
 hears it. This policy explains what the app collects, where it goes, and how to
 delete it.
 
-The app is operated by **[YOUR NAME OR COMPANY]** ("we"). Questions:
+The app is operated by **John Kim** ("we"). Questions:
 **[utjohnkkim@gmail.com](mailto:utjohnkkim@gmail.com)**.
 
 ## What we collect
