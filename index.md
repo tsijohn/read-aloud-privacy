@@ -91,8 +91,7 @@ story, child profile, character, or family voice at any time.
 **Delete Account**. This permanently removes your account and everything in it —
 children's profiles, stories, characters and photos, voice recordings, and the
 family voices created at Inworld — from our server right away.
-[CONFIRM: describe backup retention, e.g. "Backups are overwritten within 30
-days."]
+We do not currently make routine backups of app data.
 
 ## Children
 
