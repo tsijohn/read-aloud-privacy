@@ -78,7 +78,7 @@ We may also disclose information if the law requires it.
 
 ## Where it's stored
 
-On our own server, in **[COUNTRY]**. Uploaded photos, voice recordings,
+On our own server, in the **United States**. Uploaded photos, voice recordings,
 illustrations, and narration are stored as files on the same server. Connections
 to it are encrypted.
 
