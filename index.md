@@ -1,90 +1,119 @@
-# Read Aloud Privacy Policy
+---
+title: Privacy Policy — Read Books Aloud
+---
 
-**Effective date:** October 6, 2026
+# Privacy Policy
 
-Read Aloud ("the app", "we") creates personalized stories for children and reads them aloud. The app is made for parents and guardians. This policy explains what information the app collects, how it is used, and the choices you have.
+**Read Books Aloud** ("the app") · Effective October 6, 2026
 
-## In short
+The app makes bedtime stories for children, written, illustrated, and read
+aloud with the help of AI. It is made for parents: a parent creates the
+account, sets up each child's profile, and approves every story before a child
+hears it. This policy explains what the app collects, where it goes, and how to
+delete it.
 
-- You create the account and enter your child's details. Children do not sign up on their own.
-- We collect only what the app needs to make and narrate stories: your email, your child's first name and age, the photos and voice recordings you choose to add, and what your child says to a story character.
-- We use third-party AI services to write stories, draw illustrations, and generate narration. They receive only what is needed for that task.
-- We do not show ads, do not sell personal information, and do not use analytics or advertising trackers.
-- You can delete stories, characters, voices, and child profiles inside the app at any time, and you can ask us to delete your account.
+The app is operated by **[YOUR NAME OR COMPANY]** ("we"). Questions:
+**[CONTACT EMAIL]**.
 
-## 1. Information we collect
+## What we collect
 
-**Account.** Your email address and a password. Passwords are stored as a cryptographic hash, never in plain text.
+**Your account**
+- Your email address, your name if you give it, and your password (stored only
+  as a one-way scrypt hash; we can't read it).
 
-**Child profiles.** The first name, age, favorite things, and anything your child finds hard that you choose to enter, plus a reading-level profile the app builds from reading practice.
+**What you tell us about your children**
+- Each child's first name, age, favorite things, and anything you add about
+  what they're working on.
+- Reading progress, if you use reading practice: which words were tricky and
+  similar results. The practice **recording itself stays on your iPhone**; only
+  the results are sent.
 
-**Photos.** If you choose to, you can photograph a toy or a family member to bring them into a story. The photo is stored on our servers and described by an AI model so the character can appear consistently in stories and illustrations.
+**What you make in the app**
+- Your story requests and settings, and the stories, illustrations, and
+  narration made from them.
+- Photos you add of toys or family members to put in a story, and pictures you
+  upload to set an art style.
+- Recordings of your voice, if you create a family voice for narration.
 
-**Voice recordings.** If you choose to create a family narration voice, you record a short sample in the app. The recording begins with a spoken consent line. Recordings can only be made inside the app; there is no upload path. The sample is stored on our servers and used only to generate narration for your stories.
+**Story chats (only if you turn them on for a story)**
+- A child can talk with a story's character after the story. What the child
+  says is turned into text by Apple's speech recognition — on the iPhone when
+  it supports that — and the text is sent to make the character's reply.
+  **We don't store chat transcripts.** The character's spoken replies are saved
+  with the story.
 
-**What your child says to a story character.** After some stories, your child can talk with the story's character. Speech is turned into text on the device using Apple's speech recognition, and the text is sent to our servers and to an AI model to produce a reply. Chat text is not stored on our servers after the conversation.
+**Pages you read aloud**
+- When you scan a printed page, the photo is read **on your iPhone**; only the
+  text is sent, to be read aloud. Neither the text nor the audio is stored.
 
-**Reading practice.** When your child reads a practice story, the app can listen on the device to spot words that were hard. The audio stays on the device and is not uploaded. The app sends us only the results: which words were hard, which words were practiced, and reading speed and accuracy.
+**Technical**
+- App Attest records from Apple that confirm requests come from the genuine
+  app (we store only a fingerprint of the key, not the key).
+- Basic server logs of which features were used and when. They do not contain
+  story content, names, or other personal details.
 
-**Scanned book pages.** If you scan a printed page to have it read aloud, the text is recognized on the device. Only the text is sent to our servers to generate narration; the image is not stored.
+We don't use advertising, ad tracking, or third-party analytics, and we never
+sell your information.
 
-**Stories and settings.** The stories, illustrations, narration, and preferences you create in the app.
+## How it's used
 
-**Usage.** A count of stories generated each month, used to apply plan limits.
+Only to run the app: to write, check, illustrate, and narrate stories; to
+create the family voices you ask for; to tune stories to a child's reading
+level; and to keep the service secure.
 
-We do not collect location, contacts, or advertising identifiers.
+## Who we share it with
 
-## 2. How we use information
+The app relies on outside AI services. You are asked to agree to this sharing
+in the app before anything is sent. These services receive information only to
+do their part, under their own privacy terms:
 
-- To write, illustrate, narrate, and save stories for your child.
-- To keep practice stories at your child's reading level.
-- To let a story character respond to your child in a bounded, supervised chat.
-- To run your account and apply plan limits.
-- To respond to your requests and keep the service secure.
+| Service | What it receives | Why |
+|---|---|---|
+| **Replicate** (replicate.com), which runs AI models including **Anthropic's Claude**, **OpenAI's GPT**, and **Black Forest Labs' FLUX** | Story requests (including a child's first name, age, interests, and what they're working on), story text, photos you add, chat text, and text to be read aloud | Writing and revising stories, checking Bible stories against scripture, describing photos, drawing illustrations, chat replies, and narration |
+| **Inworld AI** (inworld.ai) | Recordings for family voices; story and page text to be read in those voices | Creating family voices and reading aloud in them |
+| **Apple** | Speech for story chats, when it can't be turned into text on the iPhone; App Attest checks | Speech-to-text; confirming requests come from the genuine app |
+| **Tailscale** (tailscale.com) | Encrypted connections between the app and our server | Network routing; it cannot read the content |
 
-We do not use personal information for advertising, and we do not sell it.
+We may also disclose information if the law requires it.
 
-## 3. Service providers
+## Where it's stored
 
-To make the app work, we send limited information to these providers. Each receives only what its task needs.
+On our own server, in **[COUNTRY]**. Uploaded photos, voice recordings,
+illustrations, and narration are stored as files on the same server. Connections
+to it are encrypted.
 
-| Provider | What it does | What it receives |
-| --- | --- | --- |
-| Anthropic | Writes stories, describes photos, and generates chat replies | Story settings, your child's first name and age, character photos, chat text |
-| Replicate | Runs AI models for story writing, story review, illustrations, narration, and family voices | Story text, character descriptions, voice samples |
-| ElevenLabs | Optional preset narration voice | Story text only |
-| Apple | Speech recognition and App Store purchases | Audio for speech recognition, handled under Apple's privacy policy |
+## How long we keep it, and how to delete it
 
-These providers process information on our behalf and are not permitted to use it for their own purposes.
+We keep your information until you delete it. In the app you can delete any
+story, child profile, character, or family voice at any time.
 
-## 4. Children's privacy
+**To delete everything:** open the menu on the home screen and choose
+**Delete Account**. This permanently removes your account and everything in it —
+children's profiles, stories, characters and photos, voice recordings, and the
+family voices created at Inworld — from our server right away.
+[CONFIRM: describe backup retention, e.g. "Backups are overwritten within 30
+days."]
 
-The app is intended to be used by a parent or guardian with their child. The parent creates the account, enters the child's information, and controls all content. By entering a child's information, you confirm you are the child's parent or legal guardian and consent to the collection described in this policy.
+## Children
 
-We do not knowingly collect personal information directly from a child under 13 without parental consent. Children's information is used only to provide the service and is never used for marketing. If you believe a child has provided information without consent, contact us and we will delete it.
+Children don't create accounts and can't use the app without a parent setting
+it up. Information about a child is provided by the parent, and story chats
+happen only when a parent turns them on for a story. A parent can review or
+delete their child's information at any time in the app, or by contacting us.
+We don't knowingly collect information from a child except as a parent directs
+in this way.
 
-You can review and delete your child's information at any time in the app.
+## Security
 
-## 5. AI-generated content
+Connections are encrypted, passwords are hashed, and the server accepts
+requests only from the genuine app (Apple App Attest). No system is perfectly
+secure, but we work to protect your information.
 
-Stories, illustrations, and chat replies are generated by AI and may contain mistakes. The app includes review tools so you can read a story before sharing it with your child. Character chats are limited in length, stay within the story, and are designed so that if a child raises something worrying, the character ends the chat and asks the child to go to a parent.
+## Changes
 
-Family narration voices are generated by an AI voice model. Generated audio carries an inaudible watermark so it can be identified as synthetic.
+If this policy changes, we'll update the date above. If the change affects what
+is shared with outside AI services, the app will ask for your agreement again.
 
-## 6. Retention and deletion
+## Contact
 
-- Deleting a story, character, or child profile in the app removes it from our servers.
-- Deleting a family voice removes the voice sample and every narration made with it.
-- To delete your account and all associated information, contact us at the address below. We will complete the deletion within 30 days.
-
-## 7. Security
-
-Information is sent over encrypted connections (HTTPS). Passwords are hashed. No method of storage or transmission is completely secure, and we cannot guarantee absolute security.
-
-## 8. Changes to this policy
-
-If we change this policy, we will update the effective date above. Significant changes will be announced in the app.
-
-## 9. Contact
-
-Questions or deletion requests: **CONTACT_EMAIL**
+**[CONTACT EMAIL]**
